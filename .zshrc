@@ -112,3 +112,13 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+if [[ ! -f ~/.zpm/zpm.zsh ]]; then
+  git clone --recursive https://github.com/zpm-zsh/zpm ~/.zpm
+fi
+source ~/.zpm/zpm.zsh
+
+zpm load zsh-users/zsh-autosuggestions
+zpm load zsh-users/zsh-syntax-highlighting
+zpm load MichaelAquilina/zsh-you-should-use
+zpm load fdellwing/zsh-bat
