@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	email = casey.j.davis@gmail.com
+	name = Casey Davis
+[pull]
+	rebase = false
