@@ -122,3 +122,4 @@ zpm load zsh-users/zsh-autosuggestions
 zpm load zsh-users/zsh-syntax-highlighting
 zpm load MichaelAquilina/zsh-you-should-use
 zpm load fdellwing/zsh-bat
+zpm load hgaiser/gruvbox-zsh
