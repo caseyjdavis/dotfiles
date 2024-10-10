@@ -10,7 +10,6 @@ set background=dark
 let g:sonokai_style='andromeda'
 let g:airline_theme='sonokai'
 let g:sonokai_transparent_background=1
-colorscheme sonokaimore
 set laststatus=2
 let g:airline_powerline_fonts=1
 
