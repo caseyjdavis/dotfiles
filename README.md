@@ -1,10 +1,10 @@
-# dotfiles
-yadm repo of my dotfiles
+# This repo is part of my larger WSL setup documented in this repository
 
-## Install applications
-```
-sudo apt install vim tmux zsh mc
-```
+https://github.com/caseyjdavis/setup
+
+All terminal requirements are installed using the setup repo, but if you are just cloning this repo you can manually install by using the instructions below.
+
+## Manual Installation Instructions Only
 
 ## Install oh-my-zsh
 ```
