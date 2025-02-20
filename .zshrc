@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git) 
 
 source $ZSH/oh-my-zsh.sh
 
@@ -119,7 +119,11 @@ fi
 source ~/.zpm/zpm.zsh
 
 zpm load zsh-users/zsh-autosuggestions
-zpm load zsh-users/zsh-syntax-highlighting
 zpm load MichaelAquilina/zsh-you-should-use
 zpm load fdellwing/zsh-bat
 zpm load hgaiser/gruvbox-zsh
+
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+# Created by `pipx` on 2025-02-17 03:07:09
+export PATH="$PATH:/home/casdavis/.local/bin"
