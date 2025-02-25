@@ -9,11 +9,6 @@
           "operation": "symlink"
         },
         {
-          "source": "vimbundle",
-          "target": "$HOME/.vimbundle",
-          "operation": "symlink"
-        },
-        {
           "source": "vimrc",
           "target": "$HOME/.vimrc",
           "operation": "symlink"

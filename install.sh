@@ -21,13 +21,13 @@ cp .tmux.conf $HOME/.tmux.conf
 [ -f $HOME/.vimrc ] && mv $HOME/.vimrc $HOME/.vimrc.backup
 cp vimrc $HOME/.vimrc
 
-[ -f $HOME/.vimbundle ] && mv $HOME/.vimbundle $HOME/.vimbundle.backup
-cp vimbundle $HOME/.vimbundle
+#[ -f $HOME/.vimbundle ] && mv $HOME/.vimbundle $HOME/.vimbundle.backup
+#cp vimbundle $HOME/.vimbundle
 
 # Ensure dirs present
 mkdir -p $HOME/.vim/autoload
 mkdir -p $HOME/.vim/colors
 
 # Get colors and plug
-cp colors/sonokaimore.vim $HOME/.vim/colors/sonokaimore.vim
+#cp colors/sonokaimore.vim $HOME/.vim/colors/sonokaimore.vim
 wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -O $HOME/.vim/autoload/plug.vim
