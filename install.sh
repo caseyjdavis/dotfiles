@@ -19,7 +19,7 @@ cp .tmux.conf $HOME/.tmux.conf
 
 # Vim
 [ -f $HOME/.vimrc ] && mv $HOME/.vimrc $HOME/.vimrc.backup
-cp vimrc $HOME/.vimrc
+cp .vimrc $HOME/.vimrc
 
 #[ -f $HOME/.vimbundle ] && mv $HOME/.vimbundle $HOME/.vimbundle.backup
 #cp vimbundle $HOME/.vimbundle
