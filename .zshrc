@@ -125,5 +125,8 @@ zpm load hgaiser/gruvbox-zsh
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
-# Created by `pipx` on 2025-02-17 03:07:09
-export PATH="$PATH:/home/casdavis/.local/bin"
+# Enable fuzzy finding with fzf
+setopt EXTENDED_HISTORY
+setopt inc_append_history_time
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+source /usr/share/doc/fzf/examples/completion.zsh
